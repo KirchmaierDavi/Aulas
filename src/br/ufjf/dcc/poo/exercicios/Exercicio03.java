@@ -9,7 +9,6 @@ public class Exercicio03 {
         Scanner teclado = new Scanner(System.in);
 
         double n1, n2, n3;
-        double media;
 
         System.out.print("informe n1: ");
         n1 = teclado.nextDouble();
@@ -21,8 +20,8 @@ public class Exercicio03 {
         n3 = teclado.nextDouble();
 
         double determinante = (n2 * n2) - (4 * n1 * n3);
-        double x1 = (- (n2) + Math.sqrt(determinante)/2 * n1);
-        double x2 = (- (n2) - Math.sqrt(determinante)/2 * n1);
+        double x1 = (- (n2) + Math.sqrt(determinante)/(2 * n1));
+        double x2 = (- (n2) - Math.sqrt(determinante)/(2 * n1));
 
         System.out.println("x1 = " + x1 + " x2 = " + x2);
 
