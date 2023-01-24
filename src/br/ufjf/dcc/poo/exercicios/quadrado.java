@@ -1,4 +1,4 @@
-package br.ufjf.dcc.poo.exemplos;
+package br.ufjf.dcc.poo.exercicios;
 
 import java.util.Scanner;
 
