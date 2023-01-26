@@ -17,8 +17,17 @@ public class Principal {
 
         pessoa3.cpf = "111.222.333-44";
         pessoa3.idade = 30;
-        pessoa3.nome = "que eu dei no seu cu";
+        pessoa3.nome = "no seu cu";
 
+        Funcionario cria = new Funcionario();
+        cria.cargo = "aspone";
+        cria.sexo = "nao-binarie";
+
+        Professor prof = new Professor();
+        prof.numAulas = 0;
+
+        Aluno seila = new Aluno();
+        seila.registro = "vagabundo";
 
 
     }
