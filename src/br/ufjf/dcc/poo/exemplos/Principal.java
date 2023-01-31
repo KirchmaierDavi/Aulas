@@ -1,5 +1,7 @@
 package br.ufjf.dcc.poo.exemplos;
 
+import java.util.List;
+
 public class Principal {
     public static void main(String [] args){
         Pessoa pessoa1 = new Pessoa();
@@ -28,6 +30,8 @@ public class Principal {
 
         Aluno seila = new Aluno();
         seila.registro = "vagabundo";
+
+        List<Pessoa> pessoas;
 
 
     }
